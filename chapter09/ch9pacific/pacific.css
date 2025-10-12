@@ -25,7 +25,7 @@ header {
   background-repeat: no-repeat; /* image does not repeat */
   color: #fff; /* white text color */
   height: auto; /* header can expand of shrink */
-  padding: 1px; /* space above header content */
+  padding: 1rem; /* space above header content */
   text-align: center; /* centers header text horizontally */
 }
 header a {
@@ -279,4 +279,5 @@ tr:nth-of-type(odd) {
     }
   }
 }
+
 
