@@ -48,8 +48,9 @@ nav {
 nav ul {
   list-style-type: none; /* Removes the default bullet points */
   margin: 0px; /* Removes default spacing outside the list items */
-  display: inline-flex; /* Turns the list items into a flexible layout */
-  flex-direction: row; /* Stacks the content of each list item  */
+  padding-left: 0; /* pl0 */
+  display: flex; /* Turns the list items into a flexible layout */
+  flex-direction: column; /* Stacks the content of each list item  */
   align-items: stretch; /* Each list item stretches to fill the width of the menu */
   gap: 1rem; /* Adds space between each list item */
   max-width: 100%; /* Ensures each list item doesn't exceed the width of its container */
@@ -279,6 +280,7 @@ tr:nth-of-type(odd) {
     }
   }
 }
+
 
 
 
