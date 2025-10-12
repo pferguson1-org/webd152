@@ -42,7 +42,7 @@ header a:hover {
 nav {
   font-size: 120%; /* fz120% */
   font-weight: bold; /* makes text bold */
-  padding: 1.5em; /* space around nav content */
+  padding: 0; /* space around nav content */
   text-align: center; /* centers nav content */
 }
 nav ul {
@@ -279,5 +279,6 @@ tr:nth-of-type(odd) {
     }
   }
 }
+
 
 
