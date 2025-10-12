@@ -30,6 +30,7 @@ header {
 }
 header a {
   text-decoration: none; /* tdn*/
+  color: #fff;
 }
 header a:link,
 header a:visited {
@@ -474,3 +475,4 @@ input[type="submit"]:focus {
     max-width: 100%; /* Ensures sections don't exceed half the width of their container, minus the gap */
   }
 }
+
