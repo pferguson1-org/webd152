@@ -89,7 +89,6 @@ nav a:hover {
 
 /* Main Content */
 main {
-  /* background-color: #f4e8bc; */
   background: linear-gradient(to bottom, #f4e8bc, #90745d);
   flex: 7;
   padding: 1em 0.5rem;
@@ -105,7 +104,6 @@ h3 {
 h1 {
   letter-spacing: 0.1em;
   text-shadow: 3px 3px 3px #fdfcfb;
-  /* text-align: center; */
   font-size: 300%;
   padding-right: 0;
 }
@@ -142,8 +140,6 @@ footer {
   font-style: italic;
   color: #000000;
   padding: 10%;
-  /* max-width: 100%;
-  overflow-wrap: break-word; */
 }
 #headerhero,
 #poolshero {
@@ -184,10 +180,6 @@ nav {
   flex: 1;
 }
 
-/* aside {
-  flex: 1;
-  padding-top: 0.5em; */
-
 @media only screen and (max-width: 1024px) {
   body {
     margin: 0;
@@ -200,11 +192,6 @@ nav {
 
   h1 {
     text-align: center;
-
-    /* letter-spacing: 2.5rem;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-right: 2.5em; */
   }
 
   .img-section {
@@ -222,22 +209,8 @@ nav {
     -o-flex-direction: column;
     flex-direction: column;
   }
-  /* nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  /* flex-direction: column; */
-  /* align-items: stretch;
-  max-width: 100%;
-  box-sizing: border-box;
-  flex-wrap: wrap; */
-  /* nav li {
-  flex-wrap: wrap;
-  padding: 0.1em 0;
-  box-sizing: border-box;
-  border-bottom: 1px; */
-
+}
+  
   @media only screen and (max-width: 768px) {
     nav {
       order: 1;
@@ -305,3 +278,4 @@ nav {
     flex-wrap: wrap;
   }
 }
+
